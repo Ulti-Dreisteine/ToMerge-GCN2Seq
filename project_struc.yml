@@ -1,0 +1,21 @@
+# 项目目录流程
+root:
+    assets:
+    bin:
+    cache:
+    config:
+    lib:
+    mod:
+        config:
+    data:
+        raw:
+        runtime:
+    file:
+    img:
+    report:
+    test_script:
+    tmp:
+    trash:
+    
+    
+    
