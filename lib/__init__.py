@@ -33,17 +33,7 @@ test_params = config.test_params
 # Model params here.
 CITY = model_params['CITY']
 HOUR = model_params['HOUR']
-TARGET_COLS = model_params['TARGET_COLS']
-SELECTED_COLS = model_params['SELECTED_COLS']
-CATEGORICAL_COLS = model_params['CATEGORICAL_COLS']
 COLS_BOUNDS = model_params['COLS_BOUNDS']
-
-NUMERICAL_COLS = [p for p in SELECTED_COLS if p not in CATEGORICAL_COLS]
-selected_non_target_cols_ = copy.deepcopy(SELECTED_COLS)
-for col in SELECTED_COLS:
-	if col in TARGET_COLS:
-		selected_non_target_cols_.remove(col)
-ALL_COLS = TARGET_COLS + selected_non_target_cols_
 
 # Test params here.
 
