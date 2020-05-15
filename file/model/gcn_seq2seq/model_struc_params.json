@@ -1,0 +1,1 @@
+{"encoder_seq_len": 6, "decoder_seq_len": 8, "gcn_params": {"endo_nodes_n": 6, "exog_nodes_n": 3, "features_n": 1, "hidden_size": 6, "layers_n": 2}, "lstm_params": {"hidden_size": 8, "layers_n": 3, "bias": false, "batch_first": true, "dropout": 0.0}}
