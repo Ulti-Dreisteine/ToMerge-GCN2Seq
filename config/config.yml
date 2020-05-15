@@ -1,0 +1,30 @@
+# Current city.
+CITY: 'taiyuan'
+
+# Time relevant params.
+HOUR: 3600  # unit: sec
+
+# Fields settings.
+TARGET_COLS: ['pm25', 'pm10', 'so2', 'co', 'no2', 'o3']
+SELECTED_COLS: ['pm25', 'pm10', 'so2', 'co', 'no2', 'o3', 'aqi', 'weather', 'ws', 'wd', 'temp', 'sd','month', 'weekday', 'clock_num']
+
+CATEGORICAL_COLS: ['weather', 'wd', 'month', 'weekday', 'clock_num']
+
+COLS_BOUNDS:
+    pm25: [0, 600]
+    pm10: [0, 1400]
+    so2: [0, 600]
+    co: [0, 8]
+    no2: [0, 250]
+    o3: [0, 400]
+    aqi: [0, 1300]
+    
+    weather: [0, 19]
+    ws: [0, 10]
+    wd: [0, 18]
+    temp: [-40, 60]
+    sd: [0, 110]
+    
+    month: [0, 12]
+    weekday: [0, 7]
+    clock_num: [0, 24]

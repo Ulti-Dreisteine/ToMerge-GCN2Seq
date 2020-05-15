@@ -2,6 +2,7 @@ __pycache__/
 .idea/
 
 cache/
+data/runtime/
 tmp/
 trash/
 

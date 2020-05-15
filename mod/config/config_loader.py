@@ -30,7 +30,7 @@ class ConfigLoader(object):
 		self._set_proj_cmap()
 		self._load_config()
 		self._load_env_config()
-		self._load_test_params_config()
+		self._load_test_config()
 	
 	def _set_proj_dir(self):
 		"""项目根目录"""
